@@ -3,7 +3,6 @@ import React from 'react'
 //Components
 import ContainerCard from './CardImage';
 import Loard from './loard';
-import ReviewCard from '../ReviewCard';
 import DeckedCard from '../DeckedCard';
 import Paralax from '../paralax';
 

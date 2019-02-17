@@ -12,13 +12,13 @@ export const ContainerNav = styled.div`
     display: flex;
     transform: scaleX(0);
     transform-origin: 0 center;
-    @media ${MQ.md} {
+    @media ${MQ.sm} {
         width: 215px;
     }
     ${props => props.FullViewNav && css`
         width: 100%;
         transition: width 1s 1s;
-        @media ${MQ.md} {
+        @media ${MQ.sm} {
             width: 100%;
         }
         ${ContainerDashBoard} {
